@@ -69,7 +69,7 @@ def get_user_des(name):
 # Carga de datos
 users = load_json('users.json')
 roles = load_json('roles.json')
-dd    = load_json('DD.json')
+dd    = load_json('dd.json')
 df_netflix = pd.read_csv(r'netflix.csv')
 df_imdb = pd.read_csv(r'IMDb Top TV Series.csv')
 
