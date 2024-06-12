@@ -67,11 +67,11 @@ def get_user_des(name):
 
 
 # Carga de datos
-users = load_json('../data/users.json')
-roles = load_json('../data/roles.json')
-dd    = load_json('../data/DD.json')
-df_netflix = pd.read_csv(r'C:\Users\slahud\Desktop\Cursos Python Oracle\Python Avanzado\Proyecto\data\netflix.csv')
-df_imdb = pd.read_csv(r'C:\Users\slahud\Desktop\Cursos Python Oracle\Python Avanzado\Proyecto\data\IMDb Top TV Series.csv')
+users = load_json('users.json')
+roles = load_json('roles.json')
+dd    = load_json('DD.json')
+df_netflix = pd.read_csv(r'netflix.csv')
+df_imdb = pd.read_csv(r'IMDb Top TV Series.csv')
 
 try:
     st.header("PROJECT - TEAM 5")
